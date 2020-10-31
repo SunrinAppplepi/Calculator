@@ -19,13 +19,8 @@
             android:id="@+id/subTv"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:textSize="20sp"
             android:layout_weight="1"/>
-        <TextView
-            android:id="@+id/subTv"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            />
         <TextView
             android:id="@+id/mainTv"
             android:layout_width="match_parent"
@@ -80,7 +75,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#f99013"
-                android:text="\"
+                android:text="\\"
                 android:textSize="30sp" />
         </LinearLayout>
         <LinearLayout
